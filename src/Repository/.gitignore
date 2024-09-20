@@ -1,0 +1,27 @@
+# Symfony-specific
+/.env*
+/var/
+/public/bundles/
+/public/uploads/
+# IDEs and editors
+.idea
+.vscode
+*.iml
+# Logs
+logs/
+# Cache
+var/cache/
+# Tests
+/tests/
+# Build/dist
+/build/
+/dist/
+# Local configuration
+app/config/parameters.yml
+app/config/parameters.ini
+# Composer
+/vendor/
+composer.lock
+
+# Specific to your project
+# Add any additional patterns to ignore here
